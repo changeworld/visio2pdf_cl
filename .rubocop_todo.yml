@@ -11,10 +11,6 @@ Lint/UnusedBlockArgument:
   Enabled: false
 
 # Offense count: 1
-Lint/UselessAssignment:
-  Enabled: false
-
-# Offense count: 1
 Metrics/AbcSize:
   Max: 18
 
@@ -22,9 +18,3 @@ Metrics/AbcSize:
 # Configuration parameters: CountComments.
 Metrics/MethodLength:
   Max: 30
-
-# Offense count: 1
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle, SupportedStyles.
-Style/BracesAroundHashParameters:
-  Enabled: false

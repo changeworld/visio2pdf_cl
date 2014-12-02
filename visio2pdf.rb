@@ -5,7 +5,7 @@ require 'fileutils'
 
 def visio2pdf
   if ARGV.length == 2
-    in_dir, out_dir = ARGV
+    in_dir, _out_dir = ARGV
   else
     return
   end
