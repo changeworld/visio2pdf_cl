@@ -29,12 +29,6 @@ Metrics/MethodLength:
 Style/BracesAroundHashParameters:
   Enabled: false
 
-# Offense count: 2
-# Cop supports --auto-correct.
-# Configuration parameters: SupportedStyles.
-Style/IndentHash:
-  EnforcedStyle: consistent
-
 # Offense count: 1
 # Cop supports --auto-correct.
 Style/MethodCallParentheses:

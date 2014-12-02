@@ -18,12 +18,12 @@ def visio2pdf
       pdf_fullpath = vsd_fullpath.gsub(/\.vsd$/, '.pdf')
       begin
         vsd = visio.Documents.Open(vsd_fullpath)
-        vsd.ExportAsFixedFormat({
+        vsd.ExportAsFixedFormat(
           'FixedFormat' => 1,
           'OutputFileName' => pdf_fullpath,
           'Intent' => 0,
           'PrintRange' => 0
-        })
+        )
         puts "success: #{vsd_fullpath}"
       rescue
         puts "fail: #{vsd_fullpath}"
