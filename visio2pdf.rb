@@ -36,4 +36,4 @@ def visio2pdf
   end
 end
 
-visio2pdf()
+visio2pdf
