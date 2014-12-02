@@ -10,7 +10,7 @@ Visio to PDF format.
 
 ## License
 
-Copyright (c) 2014 changewolrd
+Copyright (c) 2014 changeworld
 
 https://github.com/changewolrd/visio2pdf/blob/master/LICENSE
 
