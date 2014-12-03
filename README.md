@@ -12,5 +12,5 @@ Visio to PDF format.
 
 Copyright (c) 2014 changeworld
 
-https://github.com/changewolrd/visio2pdf/blob/master/LICENSE
+https://github.com/changeworld/visio2pdf/blob/master/LICENSE
 
