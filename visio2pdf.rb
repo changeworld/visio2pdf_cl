@@ -13,7 +13,7 @@ def visio2pdf
   exts = ['.vsd']
   begin
     files = Dir["#{in_dir}/[^~]*{#{exts}}"]
-    files.sort.each_with_index do |file, i|
+    files.sort.each do |file|
       vsd_fullpath = File.expand_path(file)
       pdf_fullpath = vsd_fullpath.gsub(/\.vsd$/, '.pdf')
       begin
