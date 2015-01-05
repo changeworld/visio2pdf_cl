@@ -22,8 +22,8 @@ class Visio2Pdf
   end
 
   def visio2pdf
-    @visio = WIN32OLE.new('Visio.Application')
     begin
+      @visio = WIN32OLE.new('Visio.Application')
       files = Dir["#{@in_dir}/[^~]*{#{VSDEXTS}}"]
       files.sort.each do |file|
         get_filepath file
@@ -35,8 +35,8 @@ class Visio2Pdf
   end
 
   def visio2pdf_exec
-    vsd = @visio.Documents.Open(@vsd_fullpath)
     begin
+      vsd = @visio.Documents.Open(@vsd_fullpath)
       vsd.ExportAsFixedFormat(
         FixedFormat: 1, OutputFileName: @pdf_fullpath, Intent: 0, PrintRange: 0
       )
