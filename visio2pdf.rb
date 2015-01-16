@@ -24,6 +24,7 @@ class Visio2Pdf
   def visio2pdf
     begin
       @visio = WIN32OLE.new('Visio.Application')
+      @visio.alertresponse = 7
       files = Dir["#{@in_dir}/[^~]*{#{VSDEXTS}}"]
       files.sort.each do |file|
         get_filepath file
