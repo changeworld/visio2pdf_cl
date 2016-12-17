@@ -5,8 +5,8 @@ require 'fileutils'
 
 # This class converts visio file into pdf file.
 class Visio2Pdf
-  VSDEXTS = '.vsd'
-  PDFEXTS = '.pdf'
+  VSDEXTS = '.vsd'.freeze
+  PDFEXTS = '.pdf'.freeze
   @visio = nil
   @in_dir = nil
   @vsd_fullpath = nil
