@@ -1,6 +1,7 @@
 # Visio2PDF
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Code Climate](https://codeclimate.com/github/changeworld/visio2pdf_cl/badges/gpa.svg)](https://codeclimate.com/github/changeworld/visio2pdf_cl)
 
 Visio to PDF format.
 
